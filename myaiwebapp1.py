@@ -6,7 +6,7 @@ model = genai.GenerativeModel("gemini-pro")
 
 
 text="แปลภาษา"
-st.markdown(f'<p style="text-align:center;size:1000px">{text}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:center;font-size:1000px">{text}</p>', unsafe_allow_html=True)
 ch = st.selectbox("เลือกภาษาปลายทาง",
                  ("ไทย","อังกฤษ","เกาหลี","ญี่ปุ่น"))
 
